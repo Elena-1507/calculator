@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CULCULEIT</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Мой первый калькулятор! Ура!</h1>
+        <div class="calc">
+            <div class="in">
+                <input type="text" placeholder="0" class="a">
+                <input type="text" placeholder="0" class="b">
+            </div>
+            <div class="flex_btn">
+                <div class="btn sum"><p>+</p></div>
+                <div class="btn min"><p>-</p></div>
+                <div class="btn mul"><p>*</p></div>
+                <div class="btn del"><p>/</p></div>
+            </div>
+            <div class="res"> 
+                Результат равен: <span id="resu"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

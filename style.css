@@ -1,0 +1,44 @@
+.wrapper {
+    margin: 0 auto;
+}
+.calc {
+    border: solid 3px #66393b;
+    width: 500px;
+    margin: 70px auto;
+    padding: 30px;
+    background: #f0e052;
+}
+.in {
+    text-align: right;
+}
+.in input {
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+.flex_btn {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.btn {
+    height: 80px;
+    width: 80px;
+    border: solid 1px #66393b;
+    box-shadow: 10px 5px #000;
+    background: white;
+}
+.btn p {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+}
+.btn:hover{
+    box-shadow: 4px 2px #000;
+    background:#ffc400;
+       
+}
+
+.res {
+    font-size: 36px;
+}
